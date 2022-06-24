@@ -1,0 +1,106 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --dorado: #AC7101;
+    --gris-claro: #F0F0F0;
+    --gris-transparent: rgba(0, 0, 0, 0.575);
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+/*utilidades*/
+.gris-transparent{
+    color: var(--gris-transparent);
+}
+.gris-claro{
+    color: var(--gris-claro);
+}
+.dorado{
+    color: var(--dorado);
+}
+.negro{
+    color: var(--negro);
+}
+.blanco{
+    color: var(--blanco);
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.text-justify{
+    text-align: justify;
+}
+/*navbar*/
+.bg-light{
+    background-color: var(--blanco) !important;
+}
+.h-nav-img{
+    max-height: 50px !important;
+}
+.direccion-start, .direccion-end{
+    display: block;
+}
+.center-vertical{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px; 
+}
+
+/*productos destacados*/
+
+.size-img{
+    height: 327px;
+    width: 212px;
+    align-self: center;
+}
+.tallas{
+    color: var(--gris-transparent);
+}
+.precio{
+    color: var(--negro);
+}
+.btn-primary{
+    background-color: var(--gris-claro);
+    border: none;
+    border-radius: 0.5rem;
+}
+.card{
+    border: 0px;
+    box-shadow: 2px 10px 8px 2px rgba(0, 0, 0, 0.25);
+}
+.center-vh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsleatter{
+    height: 170px;
+    overflow: auto;
+}
+.img-pruebas{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+.img-contacto{
+    width: 100vw;
+}
+.bg-blanco-transparent{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100vw;
+    height: 100%;
+}
+.btn-secundary{
+    background-color: var(--blanco);
+}
+@media only screen and (max-width: 400px){
+    .desaparecer{
+        display: none;
+    }
+    }
+
